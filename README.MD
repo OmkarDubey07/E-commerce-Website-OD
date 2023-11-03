@@ -1,0 +1,2 @@
+# E-COMMERCE FASHION WEBSITE ONLY FOR LARGE MOBILE VIEW.
+PAGE PREVIEW : https://odnation.netlify.app/
