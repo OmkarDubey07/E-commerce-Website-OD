@@ -14,6 +14,87 @@ a {
 .mobile-container {
   max-width: 750px;
 }
+
+/* ----menu section when click on menu-btn------- */
+.menu-container {
+  display: none;
+  width: 100%;
+  position: fixed;
+  z-index: 9;
+  background-color: #ffffff;
+}
+.menu-container.active{
+  display:block ;
+}
+.menu-container .menu-header {
+  height: 60px;
+  width: 100%;
+  background-color: #fff;
+  position: relative;
+}
+.menu-container .menu-header h2 {
+  text-align: center;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+.menu-container .menu-header ion-icon {
+  font-size: 26px;
+  font-weight: 700;
+  flex-shrink: 0;
+  cursor: pointer;
+  position: relative;
+  top: 12px;
+  left: 1rem;
+  user-select: none;
+}
+.menu-container .menu-category-section {
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+  gap: 20px;
+  background-color: #f5f5f5;
+  margin: 1rem 0;
+}
+.menu-category-section p{
+  color: #555555;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  user-select: none;
+}
+.menu-category-section p:hover{color: #ff7a00;}
+
+.menu-page-connect{
+  width: 100%;
+}
+.menu-page-connect div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 12px;
+}
+.menu-page-connect div p{
+  font-size: 16px;
+font-style: normal;
+font-weight: 600;
+color: #262626;
+line-height: 20px;
+}
+.menu-page-connect div:hover p{color :#ff7a00;}
+.menu-page-connect div p{
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  color: #434343;
+  line-height: 20px;
+}
+
+
 /* ----- header section----- */
 .mobile-container .header {
   height: 50px;
@@ -22,18 +103,22 @@ a {
   align-items: center;
   padding: 5px 1rem;
   margin-bottom: 1rem;
+  margin-top: 10px;
+  position: relative;
 }
 .header ion-icon {
   font-size: 26px;
   font-weight: 700;
   flex-shrink: 0;
   cursor: pointer;
+  user-select: none;
 }
 .header .logo-heading {
   font-size: 22px;
   font-weight: 700;
   line-height: 20px;
   cursor: pointer;
+  user-select: none;
 }
 .header .logo-heading img {
   margin-right: 3px;
