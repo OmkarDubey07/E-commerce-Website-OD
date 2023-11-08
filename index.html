@@ -15,7 +15,7 @@
           <ion-icon class="close-menu-btn" name="close-outline"></ion-icon>
           <h2 class="menu-title">Menu</h2>
         </div>
-        <!--  -->
+        <!-- menuList -->
         <div class="menu-category-section">
           <p>Woman</p>
           <p>Man</p>
@@ -29,22 +29,253 @@
           <p>Best Seller</p>
         </div>
         <div class="menu-page-connect">
-           <div>
+          <div>
             <p>Login/Register</p>
             <ion-icon name="chevron-forward-outline"></ion-icon>
-           </div>
-           <div>
+          </div>
+          <div>
             <p>Help & Support</p>
             <ion-icon name="chevron-forward-outline"></ion-icon>
-           </div>
-           <div>
+          </div>
+          <div>
             <p>About us</p>
             <ion-icon name="chevron-forward-outline"></ion-icon>
-           </div>
-           <div>
+          </div>
+          <div>
             <p>Blogs</p>
             <ion-icon name="chevron-forward-outline"></ion-icon>
-           </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- All Category section when you open  -->
+      <section class="side-category-section">
+        <div class="category-header">
+          <ion-icon class="category-closeBtn" name="grid-outline"></ion-icon>
+          <h2>All Categories</h2>
+        </div>
+
+        <div class="category-brandBox side-catBox">
+          <div class="brandBox-header box-head">
+            <h3>BRAND</h3>
+            <ion-icon name="chevron-down-outline"></ion-icon>
+          </div>
+          <div class="brandBox-details">
+            <input type="text" placeholder="Search" class="brand-search" />
+            <ion-icon class="search-icon" name="search-outline"></ion-icon>
+          </div>
+        </div>
+
+        <div class="cat-horLine"></div>
+        <!-- horizontal line -->
+        <div class="category-modelBox side-catBox">
+          <div class="modelBox-header box-head">
+            <h3>MODEL</h3>
+            <ion-icon name="chevron-down-outline"></ion-icon>
+          </div>
+          <div class="modelBox-details">
+            <div>
+              <p>Short</p>
+              <span>60</span>
+            </div>
+            <div>
+              <p>Mid-length</p>
+              <span>10</span>
+            </div>
+            <div>
+              <p>Sweater</p>
+              <span>56</span>
+            </div>
+            <div>
+              <p>Party Dress</p>
+              <span>80</span>
+            </div>
+            <div>
+              <p>Regular Fit</p>
+              <span>100</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="cat-horLine"></div>
+        <!-- horizontal line -->
+        <div class="category-styleBox side-catBox">
+          <div class="styleBox-header box-head">
+            <h3>STYLE</h3>
+            <ion-icon name="chevron-down-outline"></ion-icon>
+          </div>
+          <div class="styleBox-details">
+            <div>
+              <input
+                type="checkbox"
+                id="Casual"
+                class="checkBox_in"
+                name="Casual"
+                value="Casual"
+              />
+              <label for="Casual"> Casual</label><br />
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                id="Business-casual"
+                class="checkBox_in"
+                name="Business casual"
+                value="Business casual"
+              />
+              <label for="Business-casual">Business casual</label><br />
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                id="Bohemian"
+                class="checkBox_in"
+                name="Bohemian"
+                value="Bohemian"
+              />
+              <label for="Bohemian">Bohemian</label><br />
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                id="Minimalist"
+                class="checkBox_in"
+                name="Minimalist"
+                value="Minimalist"
+              />
+              <label for="Minimalist">Minimalist</label><br />
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                id="Uniqlo"
+                class="checkBox_in"
+                name="Uniqlo"
+                value="Uniqlo"
+              />
+              <label for="Uniqlo">Uniqlo</label><br />
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                id="Zara"
+                class="checkBox_in"
+                name="Zara"
+                value="Zara"
+              />
+              <label for="Zara">Zara</label><br />
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                id="Gucci"
+                class="checkBox_in"
+                name="Gucci"
+                value="Gucci"
+              />
+              <label for="Gucci">Gucci</label><br />
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                id="Calvin-Klein"
+                class="checkBox_in"
+                name="Calvin Klein"
+                value="Calvin Klein"
+              />
+              <label for="Calvin-Klein">Calvin Klein</label><br />
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                id="Ralph-Lauren"
+                class="checkBox_in"
+                name="Ralph Lauren"
+                value="Ralph Lauren"
+              />
+              <label for="Ralph-Lauren">Ralph Lauren</label><br />
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                id="Rachel-Pally"
+                class="checkBox_in"
+                name="Rachel Pally"
+                value="Rachel Pally"
+              />
+              <label for="Rachel-Pally">Rachel Pally</label><br />
+            </div>
+          </div>
+        </div>
+
+        <div class="cat-horLine"></div>
+        <!-- horizontal line -->
+        <div class="category-colorBox side-catBox">
+          <div class="colorBox-header box-head">
+            <h3>COLOR</h3>
+            <ion-icon name="chevron-down-outline"></ion-icon>
+          </div>
+          <div class="colorBox-details">
+            <div class="colors-checkBoxs">
+              <div class="colors-box" data-color="#ff2e00">
+                <ion-icon class="checkmark" name="checkmark-outline"></ion-icon>
+              </div>
+              <div class="colors-box" data-color="#f7ddd0">
+                <ion-icon class="checkmark" name="checkmark-outline"></ion-icon>
+              </div>
+              <div class="colors-box" data-color="#66a5ff">
+                <ion-icon class="checkmark" name="checkmark-outline"></ion-icon>
+              </div>
+              <div class="colors-box" data-color="#ff9d41">
+                <ion-icon class="checkmark" name="checkmark-outline"></ion-icon>
+              </div>
+              <div class="colors-box" data-color="#4BCB88">
+                <ion-icon class="checkmark" name="checkmark-outline"></ion-icon>
+              </div>
+              <div class="colors-box" data-color="#9747FF">
+                <ion-icon class="checkmark" name="checkmark-outline"></ion-icon>
+              </div>
+              <div class="colors-box" data-color="#FF67DE">
+                <ion-icon class="checkmark" name="checkmark-outline"></ion-icon>
+              </div>
+              <div class="colors-box" data-color="#967C62">
+                <ion-icon class="checkmark" name="checkmark-outline"></ion-icon>
+              </div>
+              <div class="colors-box" data-color="#434343">
+                <ion-icon class="checkmark" name="checkmark-outline"></ion-icon>
+              </div>
+              <div class="colors-box" data-color="#FFD36C">
+                <ion-icon class="checkmark" name="checkmark-outline"></ion-icon>
+              </div>
+              <div class="colors-box" data-color="#bcbfc2">
+                <ion-icon class="checkmark" name="checkmark-outline"></ion-icon>
+              </div>
+              <div class="colors-box" data-color="#ffffff">
+                <ion-icon class="checkmark" name="checkmark-outline"></ion-icon>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cat-horLine"></div>
+        <!-- horizontal line -->
+        <div class="category-sizeBox side-catBox">
+          <div class="sizeBox-header box-head">
+            <h3>SIZE</h3>
+            <ion-icon name="chevron-down-outline"></ion-icon>
+          </div>
+          <div class="sizeBox-details">
+            
+          </div>
+        </div>
+        <div class="cat-horLine"></div>
+        <!-- horizontal line -->
+        <div class="category-priceBox side-catBox">
+          <div class="priceBox-header box-head">
+            <h3>PRICE</h3>
+            <ion-icon name="chevron-down-outline"></ion-icon>
+          </div>
+          <div class="priceBox-details"></div>
         </div>
       </section>
 
