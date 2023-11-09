@@ -265,7 +265,16 @@
             <ion-icon name="chevron-down-outline"></ion-icon>
           </div>
           <div class="sizeBox-details">
-            
+            <div class="sizeBoxes">
+              <button class="sizes">2XS</button>
+              <button class="sizes">XS</button>
+              <button class="sizes">S</button>
+              <button class="sizes">M</button>
+              <button class="sizes">L</button>
+              <button class="sizes">XL</button>
+              <button class="sizes">2XL</button>
+              <button class="sizes">3XL</button>
+            </div>
           </div>
         </div>
         <div class="cat-horLine"></div>
@@ -275,7 +284,47 @@
             <h3>PRICE</h3>
             <ion-icon name="chevron-down-outline"></ion-icon>
           </div>
-          <div class="priceBox-details"></div>
+          <div class="priceBox-details">
+            <div class="priceRangeBox">
+              <div class="price-inputs">
+                <div class="field">
+                  <input type="number" value="5000" class="input-min" />
+                </div>
+                <span><ion-icon name="remove-outline"></ion-icon></span>
+                <div class="field">
+                  <input type="number" value="25000" class="input-max" />
+                </div>
+              </div>
+              <div class="priceSlider">
+                <div class="progress"></div>
+              </div>
+              <div class="range-input">
+                <input
+                  type="range"
+                  step="100"
+                  value="500"
+                  min="0"
+                  max="100000"
+                  class="range-min"
+                />
+                <input
+                  type="range"
+                  step="100"
+                  value="2500"
+                  min="0"
+                  max="100000"
+                  class="range-max"
+                />
+              </div>
+              <div class="min-max">
+                <p class="min">Minimum ₹2000</p>
+                <p class="max">Maximum ₹10000</p>
+              </div>
+            </div>
+          </div>
+          <div class="allProduct">
+            <p>878 products found</p>
+          </div>
         </div>
       </section>
 
